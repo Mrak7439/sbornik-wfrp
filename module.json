@@ -1,0 +1,70 @@
+{
+  "id": "sbornik-wfrp",
+  "title": "Сборник WFRP",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "packs": [
+    {
+      "name": "aktyory",
+      "label": "Актёры",
+      "path": "packs/aktyory",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "wfrp4e",
+      "flags": {}
+    },
+    {
+      "name": "zhurnaly",
+      "label": "Журналы",
+      "path": "packs/zhurnaly",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "wfrp4e",
+      "flags": {}
+    },
+    {
+      "name": "makros",
+      "label": "Макрос",
+      "path": "packs/makros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "wfrp4e",
+      "flags": {}
+    },
+    {
+      "name": "predmety",
+      "label": "Предметы",
+      "path": "packs/predmety",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "wfrp4e",
+      "flags": {}
+    },
+    {
+      "name": "tablicy",
+      "label": "Таблицы",
+      "path": "packs/tablicy",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ]
+}
